@@ -1,0 +1,21 @@
+
+
+
+*{
+  margin:0%;
+  padding: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+
+:root {
+  --backg: #303030;
+  --red: #ff3333;
+  --grey:grey;
+}
+
+
+
+

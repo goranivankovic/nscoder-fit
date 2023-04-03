@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.main {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: var(--backg);
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+
+
+
+}
+
+
+.firstDiv {
+    padding-top: 4em;
+    padding-bottom: 4em;
+ 
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    /* border: 2px solid red; */
+
+}
+
+.firstDivBox1{
+    width: 33%;
+    padding: 1em;
+
+
+/* border: 2px solid red; */
+
+}
+
+
+
+.firstDivBox1 div {
+    padding: .6em;
+}
+
+
+
+
+.firstDivBox1Headline {
+    width: 100%;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.firstDivBox1Text {
+
+
+    font-size: .9rem;
+    text-align: left;
+    color: var(--grey);
+}
+
+
+.firstDivBox1Text2 {
+
+
+    font-size: 1rem;
+    color: var(--white);
+    /* border: 2px solid rebeccapurple; */
+ 
+}
+
+.check{
+    color: var(--red);
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+
+
+
+.firstDivBox1Button {
+      align-self: start;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: 1rem;
+        padding: .7em;
+        width: 180px;
+        border: none;
+        background-color: var(--red);
+        color: white;
+        border-bottom-right-radius: 20px;
+}
+
+.firstDivBox1Button:hover {
+    
+transition: 600ms;
+  transform: scale(.98);
+
+}
+
+
+
+
+
+@media (max-width:1400px){
+      
+    .firstDiv {
+            padding-top: 4em;
+            padding-bottom: 4em;
+    
+            width: 95%;
+            display: flex;
+            flex-wrap: wrap;
+        
+        
+    
+        }
+
+.firstDivBox1 {
+    width: 40%;
+    padding: 1em;
+
+
+
+
+}
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+
+    .firstDiv {
+        padding-top: 4em;
+        padding-bottom: 4em;
+
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+
+
+
+    }
+
+  
+    .firstDivBox1 {
+        width: 47%;
+        padding: 1em;
+
+
+
+
+    }
+
+}
+
+
+
+
+
+
+@media (max-width:992px) {
+
+    .firstDiv {
+        padding-top: 4em;
+        padding-bottom: 4em;
+
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+
+
+    }
+
+    .firstDivBox1 {
+        margin-bottom: 2em;
+        width: 70%;
+        padding: 1em;
+
+
+
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+
+    .firstDiv {
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+
+
+
+    }
+
+    .firstDivBox1 {
+        margin-bottom: 2em;
+        width: 100%;
+        padding: 1em;
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+.firstDivBox1Headline {
+    width: 100%;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.firstDivBox1Text {
+
+
+    font-size: .9rem;
+    text-align: left;
+    color: var(--grey);
+}
+
+
+.firstDivBox1Text2 {
+
+
+    font-size: .9rem;
+    color: var(--white);
+
+
+}
+
+.check {
+    color: var(--red);
+    margin-right: 5px;
+    font-size: 1.1rem;
+}
+
+
+
+.firstDivBox1Button {
+    align-self: start;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1rem;
+    padding: .7em;
+    width: 180px;
+    border: none;
+    background-color: var(--red);
+    color: white;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+
+    .firstDiv {
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+
+
+
+    }
+
+    .firstDivBox1 {
+        margin-bottom: 1em;
+        width: 100%;
+        padding: 1em;
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+    .firstDivBox1Headline {
+        width: 100%;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .firstDivBox1Text {
+
+
+        font-size: .9rem;
+        text-align: left;
+        color: var(--grey);
+    }
+
+
+    .firstDivBox1Text2 {
+
+
+        font-size: .9rem;
+        color: var(--white);
+
+
+    }
+
+    .check {
+        color: var(--red);
+        margin-right: 5px;
+        font-size: 1rem;
+    }
+
+
+
+    .firstDivBox1Button {
+        align-self: start;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: .9rem;
+        padding: .7em;
+        width: 180px;
+        border: none;
+        background-color: var(--red);
+        color: white;
+        border-bottom-right-radius: 20px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:450px) {
+
+    .firstDiv {
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+
+
+
+    }
+
+    .firstDivBox1 {
+        margin-bottom: 1em;
+        width: 100%;
+        padding: 1em;
+
+
+
+
+    }
+
+    .firstDivBox1 div:nth-child(2){
+        font-size: .7rem;
+    }
+
+  .firstDivBox1 div:nth-child(3) {
+      font-size: .75rem;
+  }
+
+
+
+
+
+
+
+    .firstDivBox1Headline {
+        width: 100%;
+        font-size: .9rem;
+        text-align: left;
+    }
+
+    .firstDivBox1Text {
+
+
+        font-size: .85rem;
+        text-align: left;
+        color: var(--grey);
+    }
+
+
+    .firstDivBox1Text2 {
+
+        font-size: .85rem;
+        text-align: left;
+        color: var(--white);
+
+
+    }
+
+    .check {
+        color: var(--red);
+        margin-right: 0px;
+        font-size: 1rem;
+    }
+
+
+
+    .firstDivBox1Button {
+        align-self: start;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: .85rem;
+        padding: .7em;
+        width: 160px;
+        border: none;
+        background-color: var(--red);
+        color: white;
+        border-bottom-right-radius: 20px;
+    }
+
+
+
+
+}

@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+
+
+.main {
+
+    position: fixed;
+    top: 0%;
+    left: 0%; 
+    width: 100%;
+    z-index: 10;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+    font-family: 'Righteous', cursive;
+   
+    
+
+
+}
+
+.logo {
+    width: 15%;
+
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.45rem;
+    color: white;
+    padding: .7em;
+    display: flex;
+    justify-content: center;
+        /* border: 1px solid palevioletred; */
+
+
+}
+
+
+
+.navItems {
+    min-width: 65%;
+    
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+
+
+
+    /* border: 1px solid palevioletred; */
+
+}
+
+.navItems a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: .7em;
+
+}
+
+.navItems a:nth-child(1){
+    color: #ff3333;
+}
+
+.navItems a:hover {
+    text-decoration: none;
+    transition: 750ms;
+    transform: scale(.96);
+    color: #ff3333;
+    border-bottom: .2em solid #ff3333;
+
+}
+
+
+
+ .main768{
+    display: none;
+ }
+
+
+
+.bar {
+
+    display: none;
+}
+
+
+@media(max-width:992px){
+    .navItems {
+            min-width: 73%;
+    
+    
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            list-style: none;
+            align-items: center;
+    
+    
+    
+        
+    
+        }
+.navItems a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: .7em;
+
+}
+
+
+}
+
+
+@media (max-width:768px) {
+
+    .main {
+
+        display: none;
+
+
+    }
+
+
+
+    .main768 {
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+        background-color: #0D5DCD;
+        z-index: 10;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.7s ease-out;
+        cursor: pointer;
+
+
+        font-family: 'Righteous', cursive;
+
+    }
+
+    .main768 a {
+        text-decoration: none;
+        color: white;
+        font-size: .9rem;
+        padding: 1em;
+    }
+
+
+    .bar {
+
+        display: block;
+
+        position: fixed;
+        font-weight: bolder;
+        top: 3%;
+        right: 4%;
+        font-size:1.2rem;
+        z-index: 50;
+       color: var(--red);
+
+    }
+
+
+
+}
+
+
