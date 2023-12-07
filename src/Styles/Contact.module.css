@@ -17,7 +17,7 @@
 
 .empty{
    padding: 2em;
-    width: 100%;
+    width: 60%;
     
 /* border: 1px solid red; */
 
@@ -26,14 +26,15 @@
 
 .secondDiv{
 
-    /* height: 65vmin; */
-    width: 65%;
+
+    max-width: 65rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
      padding-top: 3em;
 
     /* border: 1px solid red; */
+
 }
 
 .secondDiv_image{
@@ -45,7 +46,6 @@
 
 .secondDiv_form_div{
 
-    /* height: 64vmin; */
     width:47%;
     color: white;
     display: flex;
@@ -156,22 +156,8 @@ input[type=button]:hover{
 
 
 
-
-@media (max-width:1200px){
-
-
-    .secondDiv {
-    
-            /* height: 65vmin; */
-            width: 72%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding-top: 3em;
-    
-    
-        }
-
+ 
+ @media (max-width:1200px){
 
 .secondDiv_image {
 
@@ -179,16 +165,16 @@ input[type=button]:hover{
     
 
     }
-}
+} 
+ 
 
 
 
-
-@media (max-width:992px) {
+@media (max-width:65rem) {
 .secondDiv {
 
-        /* height: 65vmin; */
-        width: 70%;
+        
+        max-width: 70%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -206,7 +192,7 @@ input[type=button]:hover{
     
         .secondDiv_form_div {
     
-            /* height: 64vmin; */
+          
             width: 47%;
             color: white;
             display: flex;
@@ -239,8 +225,7 @@ input[type=button]:hover{
             display: flex;
             align-items: center;
             color: white;
-            /* 
-           border:3px solid teal; */
+
     
         }
     
@@ -253,7 +238,7 @@ input[type=button]:hover{
             text-align: left;
     
     
-            /* border: 1px solid red; */
+
     
     
     
@@ -268,7 +253,7 @@ input[type=button]:hover{
     
             justify-content: space-between;
     
-            /* border: 1px solid red; */
+         
     
         }
     
@@ -315,7 +300,7 @@ input[type=button]:hover{
 @media (max-width:768px) {
     .secondDiv {
 
-        /* height: 65vmin; */
+ 
         width: 75%;
         display: flex;
         flex-direction: column;
@@ -336,7 +321,7 @@ input[type=button]:hover{
 
     .secondDiv_form_div {
 
-        /* height: 64vmin; */
+
         width:100%;
         color: white;
         display: flex;
@@ -369,8 +354,7 @@ input[type=button]:hover{
         display: flex;
         align-items: center;
         color: white;
-        /* 
-           border:3px solid teal; */
+
 
     }
 
@@ -383,7 +367,6 @@ input[type=button]:hover{
         text-align: left;
 
 
-        /* border: 1px solid red; */
 
 
 
@@ -398,7 +381,7 @@ input[type=button]:hover{
 
         justify-content: space-between;
 
-        /* border: 1px solid red; */
+
 
     }
 
@@ -447,7 +430,7 @@ input[type=button]:hover{
 
     .empty {
             padding: 1em;
-            width: 100%;
+            width: 90%;
     
         
     
@@ -456,7 +439,7 @@ input[type=button]:hover{
 
     .secondDiv {
 
-        /* height: 65vmin; */
+
         width: 85%;
         display: flex;
         flex-direction: column;
@@ -477,7 +460,7 @@ input[type=button]:hover{
 
     .secondDiv_form_div {
 
-        /* height: 64vmin; */
+
         width: 100%;
         color: white;
         display: flex;
@@ -511,8 +494,7 @@ input[type=button]:hover{
         display: flex;
         align-items: center;
         color: white;
-        /* 
-           border:3px solid teal; */
+
 
     }
 
@@ -525,7 +507,6 @@ input[type=button]:hover{
         text-align: left;
 
 
-        /* border: 1px solid red; */
 
 
 
@@ -540,7 +521,7 @@ input[type=button]:hover{
 
         justify-content: space-between;
 
-        /* border: 1px solid red; */
+
 
     }
 
@@ -595,7 +576,7 @@ input[type=button]:hover{
 
     .secondDiv {
 
-        /* height: 65vmin; */
+
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -616,7 +597,7 @@ input[type=button]:hover{
 
     .secondDiv_form_div {
 
-        /* height: 64vmin; */
+
         width: 100%;
         color: white;
         display: flex;
@@ -651,8 +632,7 @@ input[type=button]:hover{
         display: flex;
         align-items: center;
         color: white;
-        /* 
-           border:3px solid teal; */
+
 
     }
 
@@ -665,7 +645,7 @@ input[type=button]:hover{
         text-align: left;
 
 
-        /* border: 1px solid red; */
+
 
 
 
@@ -680,7 +660,7 @@ input[type=button]:hover{
 
         justify-content: space-between;
 
-        /* border: 1px solid red; */
+
 
     }
 

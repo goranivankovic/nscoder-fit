@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-.main{
-    
+
+
+.main {
+
 
     /* min-height: 100vmin; */
     width: 100%;
@@ -13,105 +15,106 @@
     color: white;
     cursor: pointer;
     font-family: 'Righteous', cursive;
-        /* border: 1px solid red; */
- 
+    /* border: 1px solid red; */
+
 }
 
 
-.firstDiv_headline{
+.firstDiv_headline {
     margin-top: 2em;
-   padding: 2.5em;
-    width: 65%;
+    padding: 2.5em;
+    min-width: 65rem;
     font-size: 1.4rem;
     display: flex;
     align-items: center;
     justify-content: center;
- 
-   /* border: 2px solid red; */
+
+    /* border: 2px solid red; */
 
 }
 
-.secondDiv{
-   
-    width: 60%;
+.secondDiv {
+
+    min-width: 65rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     /* border: 1px solid red; */
-   
+
 
 }
 
-.secondDiv_left_div{
+.secondDiv_left_div {
 
-  
+
     width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 
-        /* border: 1px solid red; */
-     
+    /* border: 1px solid red; */
+
 
 }
-.secondDiv_left_div_items{
-   
+
+.secondDiv_left_div_items {
+
     width: 100%;
     display: flex;
     align-items: center;
     font-size: 1rem;
-    padding:1.4em;
+    padding: 1.4em;
 
-   
+
 }
 
-.check{
+.check {
     font-size: 1.2rem;
     margin-right: 12px;
     color: var(--red);
-  
+
 }
 
 
-.secondDiv_right_div{
+.secondDiv_right_div {
 
     width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    
 
-  
-   
-  
+
+
+
+
 
 
 
 }
 
 
-.secondDiv_right_div_button{
+.secondDiv_right_div_button {
     padding: .8em;
     width: 180px;
-    
-   
+
+
     background-color: transparent;
-    border-radius:.7em;
+    border-radius: .7em;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     color: white;
     font-size: 1rem;
-    border:.2em solid var(--red);
+    border: .2em solid var(--red);
     margin-top: 3em;
-  
+
 
 }
 
-.secondDiv_right_div_button:hover{
+.secondDiv_right_div_button:hover {
     transition: 750ms;
     color: var(--red);
     background-color: white;
@@ -119,10 +122,10 @@
 }
 
 
-.thredDiv{
+.thredDiv {
     padding: 2em;
-    width:80%;
-    font-size:1rem;
+    min-width: 80%;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,11 +134,11 @@
     margin-bottom: 2em;
 
 
-
+ 
 }
 
 
-.thredDiv_headline{
+.thredDiv_headline {
     font-size: 1.2rem;
     padding-bottom: 2em;
 
@@ -146,131 +149,6 @@
 
 
 
-@media (max-width:1200px){
-    .firstDiv_headline {
-            margin-top: 2em;
-            padding: 2.5em;
-            width: 65%;
-            font-size: 1.4rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-    
-
-    
-        }
-    
-        .secondDiv {
-    
-            width: 65%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-    
-
-    
-    
-        }
-    
-        .secondDiv_left_div {
-    
-    
-            width: 70%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
-    
-
-    
-    
-        }
-    
-        .secondDiv_left_div_items {
-    
-            width: 100%;
-            display: flex;
-            align-items: center;
-            font-size: 1rem;
-            padding: 1.4em;
-    
-    
-        }
-    
-        .check {
-            font-size: 1.2rem;
-            margin-right: 12px;
-            color: var(--red);
-    
-        }
-    
-    
-        .secondDiv_right_div {
-    
-            width: 30%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-    
-    
-    
-    
-    
-    
-    
-    
-        }
-    
-    
-        .secondDiv_right_div_button {
-            padding: .8em;
-            width: 180px;
-    
-    
-            background-color: transparent;
-            border-radius: .7em;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
-            color: white;
-            font-size: 1rem;
-            border: .2em solid var(--red);
-            margin-top: 3em;
-    
-    
-        }
-    
-        .secondDiv_right_div_button:hover {
-            transition: 750ms;
-            color: var(--red);
-            background-color: white;
-            border: 0px;
-        }
-    
-    
-        .thredDiv {
-            padding: 2em;
-            width: 80%;
-            font-size: 1rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            text-align: center;
-            margin-bottom: 2em;
-    
-    
-    
-        }
-    
-    
-        .thredDiv_headline {
-            font-size: 1.2rem;
-            padding-bottom: 2em;
-    
-        }
-}
 
 
 
@@ -280,17 +158,11 @@
 
 
 
-
-
-
-
-
-
-@media (max-width:992px) {
+@media (max-width:65rem) {
     .firstDiv_headline {
         margin-top: 2em;
         padding: 2.5em;
-        width: 70%;
+        min-width: 70%;
         font-size: 1.2rem;
         display: flex;
         align-items: center;
@@ -302,7 +174,7 @@
 
     .secondDiv {
 
-        width: 70%;
+        min-width: 70%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -321,7 +193,7 @@
         align-items: center;
         justify-content: space-around;
 
-      
+
 
 
     }
@@ -391,7 +263,7 @@
 
     .thredDiv {
         padding: 2em;
-        width: 80%;
+        min-width: 80%;
         font-size: 1rem;
         display: flex;
         flex-direction: column;
@@ -456,7 +328,7 @@
     .secondDiv_left_div {
 
 
-        width:100%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -658,7 +530,7 @@
     .thredDiv {
         padding: 2em;
         width: 85%;
-        font-size:.9rem;
+        font-size: .9rem;
         display: flex;
         flex-direction: column;
         align-items: center;
