@@ -301,19 +301,23 @@ input[type=button]:hover{
     .secondDiv {
 
  
-        width: 75%;
+        max-width: 75%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
         padding-top: 1em;
 
+        /* border: 1px solid red; */
+
 
     }
 
     .secondDiv_image {
-
-        width: 75%;
+      
+   
+        
+        width: 80%;
         margin-bottom: 2em;
 
 
@@ -452,7 +456,7 @@ input[type=button]:hover{
 
     .secondDiv_image {
 
-        width: 85%;
+        width: 100%;
         margin-bottom: 2em;
 
 
@@ -577,19 +581,21 @@ input[type=button]:hover{
     .secondDiv {
 
 
-        width: 90%;
+        width: 95%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        padding-top: 1em;
+        padding-top: .5em;
+
+        /* background-color: red; */
 
 
     }
 
     .secondDiv_image {
 
-        width: 85%;
+        width: 100%;
         margin-bottom: 2em;
 
 
@@ -603,7 +609,7 @@ input[type=button]:hover{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        padding: 1em;
+        padding: .4em;
 
 
 
@@ -612,7 +618,7 @@ input[type=button]:hover{
 
 
     .secondDiv_form_div_first_text {
-        padding: 1em;
+        padding:.6em;
         width: 100%;
         font-size: .85rem;
         text-align: left;
@@ -666,7 +672,7 @@ input[type=button]:hover{
 
     input[type=text] {
         padding: .4em;
-        width: 240px;
+         width: 220px;
         font-size: .75rem;
         border: .2em solid var(--red);
         border-radius: .7em;
